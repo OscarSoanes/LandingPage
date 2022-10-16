@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&display=swap');
+:root {
+    --light-text: #F9FAF8;
+    --dark-background: #1F2937;
+    --button: #3882F6;
+}
 
 body {
     font-family: Montserrat, sans-serif;
@@ -6,33 +11,67 @@ body {
     padding: 0;
 }
 
-li {
-    text-decoration: white;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15vw ;
-    background-color: #1F2937;
-    color: white;
+    padding: 12px 15vw ;
+    background-color: var(--dark-background);
+    color: var(--light-text);
 }
 
 .links {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 16px;
 }
 
 .header a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: var(--light-text);
 }
 
 .logo {
     font-weight: 800;
     font-size: 24px;
     flex-shrink: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    padding: 64px 15vw 128px;
+}
+
+.left {
+    padding-right: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero p {
+    margin: 8px 0;
+}
+
+.sign-up {
+    background-color: var(--button);
+    color: var(--light-text);
+    border-radius: 8px;
+    border-width: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    padding: 12px 32px;
+}
+
+.hero img {
+    width: 150%;
+    height: 300px;
 }
 
