@@ -47,11 +47,11 @@ body {
 }
 
 .left {
-    padding-right: 100px;
+    padding-right: 32px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 800;
     margin: 0;
 }
@@ -71,7 +71,8 @@ h1 {
 }
 
 .hero img {
-    width: 150%;
-    height: 300px;
+    width: auto;
+    height: auto;
+    max-width: 600px;
 }
 
