@@ -44,11 +44,12 @@ body {
     align-items: center;
     background-color: var(--dark);
     color: var(--light-text);
-    padding: 64px 15vw 128px;
+    padding: 64px 15vw 128px 15vh;
 }
 
 .left {
     padding-right: 32px;
+    width: 50%
 }
 
 h1 {
@@ -72,9 +73,10 @@ h1 {
 }
 
 .hero img {
-    width: auto;
+    width: 100%;
     height: auto;
     max-width: 600px;
+    flex-shrink: 2;
 }
 
 .second-hero {
@@ -116,9 +118,28 @@ h1 {
 }
 
 h2 {
+    padding-top: 24px;
     color: var(--dark);
 }
 
+.third-hero {
+    background-color: #E5E7EB;
+    padding: 64px 20vw;
+}
 
+.quote {
+    display: flex;
+    flex-direction: column;
+}
 
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
 
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 800;
+}
