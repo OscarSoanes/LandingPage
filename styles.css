@@ -88,6 +88,7 @@ h1 {
 
 .information {
     display: flex;
+    gap: 24px;
     padding: 0 20vw 128px;
 }
 
@@ -96,7 +97,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
 }
 
 .card img {
@@ -142,4 +142,48 @@ h2 {
     align-self: flex-end;
     font-size: 20px;
     font-weight: 800;
+}
+
+.fourth-hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 64px 20vw;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--button);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.left {
+    flex: 1;
+    padding-left: 128px;
+    color: var(--secondary-light-text);
+}
+
+.left p {
+    margin-bottom: 0;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.right {
+    padding: 0 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border {
+    border-color: var(--secondary-light-text);
+    border-style: solid;
+    border-width: 1px;
 }
