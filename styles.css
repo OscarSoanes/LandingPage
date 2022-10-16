@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,300&display=swap');
 :root {
-    --light-text: #F9FAF8;
-    --dark-background: #1F2937;
+    --light-text: #F9FAF8; 
+    --secondary-light-text: #E5E7EB;
+    --dark: #1F2937;
     --button: #3882F6;
 }
 
@@ -16,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px 15vw ;
-    background-color: var(--dark-background);
+    background-color: var(--dark);
     color: var(--light-text);
 }
 
@@ -28,7 +29,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: var(--light-text);
+    color: var(--secondary-light-text);
 }
 
 .logo {
@@ -41,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--dark-background);
+    background-color: var(--dark);
     color: var(--light-text);
     padding: 64px 15vw 128px;
 }
@@ -75,4 +76,49 @@ h1 {
     height: auto;
     max-width: 600px;
 }
+
+.second-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    padding: 0 20vw 128px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.card img {
+    height: 9vw;
+    width: 9vw;
+    
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.card p{
+    width: 9vw;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--dark);
+}
+
+h2 {
+    color: var(--dark);
+}
+
+
+
 
