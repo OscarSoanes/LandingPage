@@ -49,12 +49,13 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 32px;
-    flex: 1;
+    flex-wrap: wrap;
 }
 
 .left-content {
     width: 50%;
     padding-right: 32px;
+    padding-bottom: 32px;
 }
 
 h1 {
@@ -103,17 +104,17 @@ img {
 }
 
 .card img {
-    height: 9vw;
-    width: 9vw;
+    height: 150px;
+    width: 150px;
     
-    border-color: #3882F6;
+    border-color: var(--button);
     border-width: 2px;
     border-radius: 12px;
     border-style: solid;
 }
 
 .card p{
-    width: 9vw;
+    width: 150px;
     margin-top: 8px;
     text-align: center;
     font-size: 14px;
@@ -164,7 +165,7 @@ h2 {
 }
 
 .left {
-    flex: 1;
+    flex-shrink: 0.8;
     padding-left: 128px;
     color: var(--secondary-light-text);
 }
